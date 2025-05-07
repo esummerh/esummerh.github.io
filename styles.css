@@ -20,6 +20,7 @@ h1 {
 
 img {
     margin: 0;
+    display: block;
     border-radius: 0;
 }
 
