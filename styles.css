@@ -63,25 +63,28 @@ img {
 
 .content-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3em 2em;
-    gap: 2em;
+    height: 90vh;
+    width: 100%;
 }
 
 .text-section {
     flex: 1;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f4f4;
 }
 
 .photo-section {
     flex: 1;
-    display: flex;
-    justify-content: flex-end;
+    height: 100%;
+    overflow: hidden;
 }
 
 .profile-photo {
-    max-width: 300px;
+    height: 100%;
     width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+    display: block;
 }
