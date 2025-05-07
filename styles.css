@@ -67,6 +67,23 @@ img {
     color: #93a2ff;
 }
 
+.nav-social {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.nav-social a {
+    color: #ffffff;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.nav-social a:hover {
+    color: #93a2ff;
+}
+
 .cta-button {
     background-color: #547bff;
     color: white;
