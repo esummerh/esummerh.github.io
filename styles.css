@@ -12,13 +12,18 @@ html, body {
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #0d0f1f;
     height: 100%;
+    color: #f4f4f4;
+}
+
+h1, p {
+    color: #ffffff;
 }
 
 h1 {
     font-size: 2em;
-    color: #6a4caf;
+    color: #8ee1e1;
     margin-top: 0;
 }
 
@@ -69,11 +74,11 @@ img {
 }
 
 .nav-center a:hover {
-    color: #93a2ff;
+    color: #8ee1e1;
 }
 
 .nav-center a.active {
-    color: #93a2ff;
+    color: #8ee1e1;
     font-weight: 600;
 }
 
@@ -96,11 +101,11 @@ img {
 }
 
 .nav-social a:hover {
-    color: #93a2ff;
+    color: #8ee1e1;
 }
 
 .cta-button {
-    background-color: #547bff;
+    background-color: #8ee1e1;
     color: white;
     padding: 10px 18px;
     border-radius: 20px;
@@ -111,7 +116,7 @@ img {
 }
 
 .cta-button:hover {
-    background-color: #3d64e5;
+    background-color: #63cfcf;
 }
 
 .content-wrapper {
@@ -126,12 +131,12 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f4f4f4;
+    background-color: transparent;
     text-align: left;
 }
 
 .subheading {
-    color: #6a4caf;
+    color: #8ee1e1;
     font-weight: 600;
     font-size: 1rem;
     letter-spacing: 1.5px;
@@ -149,7 +154,7 @@ img {
 .role {
     font-size: 2rem;
     font-weight: 700;
-    color: #547bff;
+    color: #8ee1e1;
     margin-bottom: 1em;
 }
 
@@ -174,7 +179,7 @@ img {
 }
 
 .social-icons a:hover {
-    color: #547bff;
+    color: #8ee1e1;
 }
 
 .photo-section {
