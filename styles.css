@@ -135,6 +135,10 @@ img {
     text-align: left;
 }
 
+.subheading, .intro, .role {
+    font-family: 'Fira Code', monospace;
+}
+
 .subheading {
     color: #8ee1e1;
     font-weight: 600;
