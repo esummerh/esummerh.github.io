@@ -9,6 +9,7 @@ body {
 h1 {
     font-size: 2em;
     color: #6a4caf;
+    margin-top: 0;
 }
 
 img {
