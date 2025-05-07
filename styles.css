@@ -67,11 +67,15 @@ img {
     color: #93a2ff;
 }
 
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
 .nav-social {
     display: flex;
     gap: 1em;
-    align-items: center;
-    margin: 0 2em;
 }
 
 .nav-social a {
