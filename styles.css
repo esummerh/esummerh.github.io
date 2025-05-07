@@ -74,11 +74,11 @@ img {
 }
 
 .nav-center a:hover {
-    color: #a880a2;
+    color: #db2935;
 }
 
 .nav-center a.active {
-    color: #a880a2;
+    color: #db2935;
     font-weight: 600;
 }
 
