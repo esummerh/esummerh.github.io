@@ -4,11 +4,33 @@ body {
     background-color: #f8f8fc;
     color: #333
 }
+
 h1 {
     font-size: 2em;
     color: #6a4caf;
 }
+
 img {
     margin: 10px;
     border-radius: 8px;
+}
+
+.navbar {
+    background-color:#6a4caf;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #593ca1;
+    border-radius: 5px;
 }
