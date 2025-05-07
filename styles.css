@@ -135,7 +135,7 @@ img {
     text-align: left;
 }
 
-.subheading, .intro, .role {
+.subheading, .intro, .role, .description {
     font-family: 'Fira Code', monospace;
 }
 
@@ -168,6 +168,10 @@ img {
     max-width: 500px;
     margin-bottom: 2em;
     color: #ffffff;
+}
+
+.code-value {
+    color: #a1dfff;
 }
 
 .cta-group {
