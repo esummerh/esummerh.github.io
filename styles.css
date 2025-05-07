@@ -72,6 +72,11 @@ img {
     color: #93a2ff;
 }
 
+.nav-center a.active {
+    color: #6a4caf;
+    font-weight: 600;
+}
+
 .nav-right {
     justify-self: end;
     display: flex;
