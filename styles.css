@@ -58,7 +58,7 @@ img {
 .nav-center {
     justify-self: center;
     display: flex;
-    gap: 2em;
+    gap: 4em;
 }
 
 .nav-center a {
