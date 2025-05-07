@@ -204,3 +204,19 @@ img {
     border-radius: 0;
     margin: 0;
 }
+
+.keyword {
+    color: #dd70b1;
+}
+
+.variable {
+    color: #c9a97a;
+}
+
+.string {
+    color: #74b9ff;
+}
+
+.function-name {
+    color: #db2935;
+}
