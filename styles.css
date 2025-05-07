@@ -1,6 +1,7 @@
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
 }
 
@@ -20,7 +21,6 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 1em 2em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
 
 .nav-left .logo {
@@ -30,10 +30,14 @@ img {
     letter-spacing: 1px;
 }
 
+.nav-center {
+    display: flex;
+    gap: 2em;
+}
+
 .nav-center a {
     color: #ffffff;
     text-decoration: none;
-    margin: 0 1em;
     font-weight: 500;
     transition: color 0.3s;
 }
