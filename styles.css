@@ -1,32 +1,35 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Includes padding and border in width/height */
 }
 
 html, body {
-    height: 100%;
+    height: 100%; /* Sets the height */
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #2b2c31;
+    font-family: 'Segoe UI', sans-serif; /* Sets typeface for text */
+    background-color: #2b2c31; /* Sets background color */
     height: 100%;
-    color: #f4f4f4;
+    color: #f4f4f4; /* Sets text color */
 }
 
+/* Text color overrides */
 h1, p {
     color: #ffffff;
 }
 
+/* Headline style */
 h1 {
     font-size: 2em;
     color: #75d5d1;
     margin-top: 0;
 }
 
+/* Image defaults */
 img {
     margin: 0;
     display: block;
@@ -37,22 +40,24 @@ img {
 .page-wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; /* Full vertical height */
 }
 
 .navbar {
     background-color:#161616;
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr; /* Layout for left, center, right */
     align-items: center;
     height: 72px;
-    padding: 0 2em;
+    padding: 0 2em; /* Horizontal Spacing */
 }
 
+/* Align left logo */
 .nav-left {
     justify-self: start;
 }
 
+/* Logo text styling */
 .nav-left .logo {
     color: #ffffff;
     font-size: 1.5em;
@@ -60,12 +65,14 @@ img {
     letter-spacing: 1px;
 }
 
+/* Centered nav links */
 .nav-center {
     justify-self: center;
     display: flex;
     gap: 4em;
 }
 
+/* Link style */
 .nav-center a {
     color: #ffffff;
     text-decoration: none;
@@ -73,15 +80,18 @@ img {
     transition: color 0.3s;
 }
 
+/* Hover effect for nav links */
 .nav-center a:hover {
     color: #75d5d1;
 }
 
+/* Active nav link effect */
 .nav-center a.active {
     color: #75d5d1;
     font-weight: 600;
 }
 
+/* Right-aligned social icons */
 .nav-right {
     justify-self: end;
     display: flex;
@@ -89,21 +99,25 @@ img {
     gap: 1.5em;
 }
 
+/* Social icon container */
 .nav-social {
     display: flex;
     gap: 1em;
 }
 
+/* Social icon styling */
 .nav-social a {
     color: #ffffff;
     font-size: 1.5em;
     transition: color 0.3s;
 }
 
+/* Social hovering effect */
 .nav-social a:hover {
     color: #75d5d1;
 }
 
+/* Cta button styling */
 .cta-button {
     background-color: #3ab3a2;
     color: #ffffff;
@@ -115,16 +129,19 @@ img {
     transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
+/* Cta hover effect */
 .cta-button:hover {
     transform: scale(1.1);
 }
 
+/* Layout for main content */
 .content-wrapper {
     display: flex;
     height: calc(100vh - 72px);
     width: 100%;
 }
 
+/* Left panel styling for code block */
 .text-section {
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.07) 0%, rgba(0, 0, 0, 0.2) 85%), linear-gradient(to bottom right, #2b2b2b, #1e1e1e);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
@@ -136,10 +153,12 @@ img {
     text-align: left;
 }
 
+/* Monospace font for coding theme */
 .subheading, .intro, .role, .description {
     font-family: 'Fira Code', monospace;
 }
 
+/* Subheading style */
 .subheading {
     color: #ffffff;
     font-weight: 600;
@@ -148,6 +167,7 @@ img {
     margin-bottom: 0.5em;
 }
 
+/* Main intro headline */
 .intro {
     font-size: 2.5rem;
     font-weight: 800;
@@ -155,6 +175,7 @@ img {
     margin: 0.2em 0;
 }
 
+/* Role title */
 .role {
     font-size: 2rem;
     font-weight: 700;
@@ -162,6 +183,7 @@ img {
     margin-bottom: 1em;
 }
 
+/* Body text style */
 .description {
     font-size: 1rem;
     line-height: 1.6;
@@ -170,32 +192,39 @@ img {
     color: #ffffff;
 }
 
+/* Code value color */
 .code-value {
     color: #a1dfff;
 }
 
+/* Container for button below description */
 .cta-group {
     display: flex;
     align-items: center;
     gap: 1.5em;
 }
 
+/* Social icon color */
 .social-icons a {
     font-size: 1.5rem;
     color: #0d0f1f;
     transition: color 0.3s;
 }
 
+/* Social icon hover effect */
 .social-icons a:hover {
     color: #75d5d1;
 }
 
+
+/* Right-hand image section */
 .photo-section {
     flex: 1;
     height: 100%;
     overflow: hidden;
 }
 
+/* Image styling */
 .profile-photo {
     height: 100%;
     width: 100%;
@@ -205,6 +234,7 @@ img {
     margin: 0;
 }
 
+/* Code token colors */
 .keyword {
     color: #dd70b1;
 }
@@ -225,6 +255,7 @@ img {
     color: #c78273;
 }
 
+/* Cursor blinking effect */
 .blinking-cursor {
     font-weight: bold;
     font-size: 1.2em;
@@ -241,6 +272,7 @@ img {
     }
 }
 
+/* Dot window header */
 .vscode-header {
     display: flex;
     align-items: center;
@@ -248,6 +280,7 @@ img {
     margin-bottom: 1.5em;
 }
 
+/* Colored dot */
 .vscode-header .dot {
     width: 12px;
     height: 12px;
@@ -268,6 +301,7 @@ img {
     background-color: #27c93f;
 }
 
+/* Layout wrapper for about section */
 .about-content {
     display: flex;
     align-items: flex-start;
@@ -279,6 +313,7 @@ img {
     flex-wrap: wrap;
 }
 
+/* About intro block */
 .about-intro {
     text-align: center;
     margin-bottom: 3em;
@@ -322,6 +357,7 @@ img {
     line-height: 2;
 }
 
+/* Profile image styling */
 .about-photo {
     width: 200px;
     height: 200px;
@@ -332,6 +368,7 @@ img {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Photo container */ 
 .about-photo-wrapper {
     flex: 1;
     display: flex;
@@ -348,6 +385,7 @@ img {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Right side of panel */
 .about-text {
     flex: 2;
     min-width: 300px;
