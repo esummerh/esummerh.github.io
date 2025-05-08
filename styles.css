@@ -540,6 +540,10 @@ img {
 .sunrise-section {
     background-color: transparent;
     padding: 2em 10vw 2em 10vw;
+    display: flex;
+    align-items: flex-start;
+    gap: 4em;
+    flex-wrap: wrap;
 }
 
 .sunrise-content {
