@@ -223,3 +223,19 @@ img {
 .function-title {
     color: #c78273;
 }
+
+.blinking-cursor {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ffffff;
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
