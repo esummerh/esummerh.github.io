@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif; /* Sets typeface for text */
+    font-family: 'Inter', sans-serif; /* Sets typeface for text */
     background-color: #2b2c31; /* Sets background color */
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.07) 0%, rgba(0, 0, 0, 0.2) 85%), linear-gradient(to bottom right, #2b2b2b, #1e1e1e);
     height: 100%;
@@ -28,6 +28,10 @@ h1 {
     font-size: 2em;
     color: #75d5d1;
     margin-top: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Image defaults */
@@ -506,5 +510,5 @@ img {
     text-align: left;
     font-size: 2rem;
     color: #75d5d1;
-    margin: 1em 10vw 1em 10vw;
+    margin: 1em 10vw 0.5em 10vw;
 }
