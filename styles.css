@@ -5,7 +5,7 @@
 }
 
 html, body {
-    height: 100%; /* Sets the height */
+    min-height: 100%; /* Sets the height */
     margin: 0;
     padding: 0;
 }
@@ -45,7 +45,7 @@ img {
 .page-wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Full vertical height */
+    min-height: 100%; /* Full vertical height */
 }
 
 .navbar {
