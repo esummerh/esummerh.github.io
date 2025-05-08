@@ -13,6 +13,7 @@ html, body {
 body {
     font-family: 'Segoe UI', sans-serif; /* Sets typeface for text */
     background-color: #2b2c31; /* Sets background color */
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.07) 0%, rgba(0, 0, 0, 0.2) 85%), linear-gradient(to bottom right, #2b2b2b, #1e1e1e);
     height: 100%;
     color: #f4f4f4; /* Sets text color */
 }
