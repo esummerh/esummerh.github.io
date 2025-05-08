@@ -91,7 +91,8 @@
     </div>
     <script>
       const links = document.querySelectorAll(".nav-center a");
-      const currentPage = window.location.pathname.split("/").pop();
+      const currentPage =
+        window.location.pathname.split("/").pop() || "index.html";
       links.forEach((link) => {
         if (link.getAttribute("href") === currentPage) {
           link.classList.add("active");
