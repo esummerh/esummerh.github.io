@@ -503,9 +503,9 @@ img {
 }
 
 .section-heading {
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     color: #75d5d1;
-    margin-top: 3em;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
