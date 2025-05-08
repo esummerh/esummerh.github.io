@@ -501,3 +501,11 @@ img {
 .cta-button.dark-download i {
     font-size: 1em;
 }
+
+.section-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #75d5d1;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
