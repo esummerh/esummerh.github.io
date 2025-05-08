@@ -304,14 +304,11 @@ img {
 
 /* Layout wrapper for about section */
 .about-content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 3em;
-    padding: 4em;
-    max-width: 1200px;
-    margin: auto;
-    flex-wrap: wrap;
+    display: grid;
+    align-items: start;
+    grid-template-columns: 1fr 2fr;
+    gap: 4em;
+    padding: 5em 10vw;
 }
 
 /* About intro block */
@@ -379,17 +376,18 @@ img {
 }
 
 .about-photo-large {
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* Right side of panel */
 .about-text {
     flex: 2;
-    min-width: 300px;
+    min-width: 400px;
+    max-width: 100%;
 }
 
 .about-text h1 {
@@ -400,9 +398,9 @@ img {
 
 .about-columns {
     display: flex;
-    gap: 2em;
+    gap: 3em;
     flex-wrap: wrap;
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 .about-section {
