@@ -478,3 +478,27 @@ img {
     line-height: 1.6;
     color: #ffffff;
 }
+
+.cta-button.dark-download {
+    background-color: #75d5d1;
+    color: #d1d5db;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    border: 1px solid #444;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button.dark-download:hover {
+    background-color: #75d5d1;
+    transform: translateY(-1px);
+}
+
+.cta-button.dark-download i {
+    font-size: 1em;
+}
