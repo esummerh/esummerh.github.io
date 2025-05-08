@@ -1,1 +1,103 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Add in the style css file -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+    />
+    <!-- Working Title -->
+    <title>Ella Summerhill Portfolio</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- This section contains links at the top of the page -->
+      <!-- Nav Bar -->
+      <header class="navbar">
+        <div class="nav-left">
+          <span class="logo">ES</span>
+        </div>
+        <nav class="nav-center">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="sunrise.html">Sunrise</a>
+          <a href="artwork.html">Artwork</a>
+          <a href="resume.pdf" target="_blank">Resume</a>
+        </nav>
+        <div class="nav-right">
+          <div class="nav-social">
+            <a
+              href="https://www.linkedin.com/in/esummerh-ae2493gj9"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/esummerh" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </header>
+      <div class="content-wrapper">
+        <div class="text-section">
+          <div class="vscode-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <p class="subheading">
+            <span class="keyword">let </span>
+            <span class="variable">name </span>=
+            <span class="string">"Ella Summerhill"</span>;
+          </p>
+          <h1 class="intro">
+            <span class="function-name">function </span>
+            <span class="function-title">intro</span>() &#123;
+            <span class="keyword">console</span>.<span class="variable"
+              >log</span
+            >(<span class="string">"HEY! I'M ELLA"</span>) &#125;
+          </h1>
+          <h2 class="role">
+            <span class="keyword">const </span>
+            <span class="variable">role </span>=
+            <span class="string">"Developer"</span>;<span
+              class="blinking-cursor"
+              >|</span
+            >
+          </h2>
+          <p class="description">
+            As a recent graduate in computer science and design, I'm passionate
+            about combining creativity and technology to build software that's
+            intuitive, expressive, and impactful.
+          </p>
+          <div class="cta-group">
+            <a href="mailto:esummerh@umich.edu" class="cta-button"
+              >Get in Touch</a
+            >
+          </div>
+        </div>
+        <div class="photo-section">
+          <img
+            src="assets/Vector_Illustration.jpg"
+            alt="Ella Summerhill"
+            class="profile-photo"
+          />
+        </div>
+      </div>
+    </div>
+    <script>
+      const links = document.querySelectorAll(".nav-center a");
+      const currentPage =
+        window.location.pathname.split("/").pop() || "about.html";
+      links.forEach((link) => {
+        if (link.getAttribute("href") === currentPage) {
+          link.classList.add("active");
+        }
+      });
+    </script>
+  </body>
+</html>
