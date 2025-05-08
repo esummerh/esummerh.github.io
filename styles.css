@@ -538,18 +538,18 @@ img {
 }
 
 .sunrise-section {
-    background-color: transparent;
-    padding: 2em 10vw 2em 10vw;
+    padding: 2em 10vw;
     display: flex;
-    align-items: flex-start;
-    gap: 4em;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
 }
 
 .sunrise-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 3em;
+    max-width: 1000px;
+    width: 100%;
     flex-wrap: wrap;
 }
 
