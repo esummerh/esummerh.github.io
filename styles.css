@@ -536,3 +536,40 @@ img {
     gap: 4em;
     align-items: start;
 }
+
+.sunrise-section {
+    padding: 4em 10vw;
+    background-color: transparent;
+}
+
+.sunrise-content {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.sunrise-icon {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.sunrise-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.sunrise-text h2 {
+    font-size: 2rem;
+    color: #75d5d1;
+    margin-bottom: 0.5em;
+}
+
+.sunrise-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
