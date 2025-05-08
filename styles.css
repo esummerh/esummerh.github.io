@@ -241,3 +241,30 @@ img {
         opacity: 0;
     }
 }
+
+.vscode-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 1.5em;
+}
+
+.vscode-header .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.vscode-header .red {
+    background-color: #ff5f56;
+}
+
+.vscode-header .yellow {
+    background-color: #ffbd2e;
+}
+
+.vscode-header .green {
+    background-color: #27c93f;
+}
