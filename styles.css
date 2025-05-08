@@ -203,6 +203,7 @@ img {
     display: flex;
     align-items: center;
     gap: 1.5em;
+    margin-top: 1.5em;
 }
 
 /* Social icon color */
@@ -309,6 +310,7 @@ img {
     grid-template-columns: 1fr 2fr;
     gap: 4em;
     padding: 5em 10vw;
+    margin-bottom: 2em;
 }
 
 /* About intro block */
@@ -335,6 +337,7 @@ img {
     flex-wrap: wrap;
     gap: 3em;
     justify-content: center;
+    margin-top: 1em;
 }
 
 .about-left, .about-right {
