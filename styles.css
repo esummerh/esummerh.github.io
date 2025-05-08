@@ -624,3 +624,55 @@ img {
 .badge.github {
     background-color: #6e5494;
 }
+
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 4em 10vw;
+    color: #1e1e1e;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    color: #2b2c31;
+    margin-bottom: 1em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.contact-form button {
+    background-color: #3ab3a2;
+    color: white;
+    font-weight: 600;
+    padding: 0.75em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #2f8d7c;
+}
