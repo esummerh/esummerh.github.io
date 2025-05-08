@@ -412,3 +412,64 @@ img {
     color: #75d5d1;
     margin-bottom: 0.5em;
 }
+
+/* Education section */
+.about-section h2 {
+    color: #75d5d1;
+    margin-bottom: 0.5em;
+    font-size: 1.5rem;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Resume button */
+.cta-button {
+    background-color: #3ab3a2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background-color: #329e8f;
+}
+
+/* Activities and recognition section */
+.about-body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4em;
+    padding: 5em 10vw;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.about-left,
+.about-right {
+    flex: 1 1 300px;
+    max-width: 500px;
+}
+
+.about-left h2,
+.about-right h2 {
+    font-size: 1.5rem;
+    color: #75d5d1;
+    margin-bottom: 0.75em;
+}
+
+.about-left p,
+.about-right p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
