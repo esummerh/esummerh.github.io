@@ -42,13 +42,15 @@
           </div>
         </div>
       </header>
-      <main class="about-content">
-        <section class="about-intro">
+      <section class="about-content">
+        <div class="about-photo-wrapper">
           <img
             src="assets/grad-photo.jpeg"
             alt="Ella Summerhill portrait"
-            class="about-photo"
+            class="about-photo-large"
           />
+        </div>
+        <div class="about-text">
           <h1>About Me</h1>
           <p>
             I'm Ella, a recent graduate with a background in computer science
@@ -56,29 +58,29 @@
             creativity-building tools and experiences that are both technically
             sound and visually expressive.
           </p>
-        </section>
-        <section class="about-body">
-          <div class="about-left">
-            <h2>My Journey</h2>
-            <p>
-              From sketching illustrations to debugging JavaScript, I've always
-              gravitated toward the overlap between art and engineering. My work
-              ranges from mobile development to visual storytelling, and I'm
-              particularly passionate about designing for impact, accessibility,
-              and joy.
-            </p>
+          <div class="about-columns">
+            <div class="about-section">
+              <h2>My Journey</h2>
+              <p>
+                From sketching illustrations to debugging JavaScript, I've
+                always gravitated toward the overlap between art and
+                engineering. My work ranges from mobile development to visual
+                storytelling, and I'm particularly passionate about designing
+                for impact, accessibility, and joy.
+              </p>
+            </div>
+            <div class="about-section">
+              <h2>Skills</h2>
+              <ul>
+                <li>Python / C++ / C / JavaScript / Swift / HTML / SQL</li>
+                <li>Figma / Adobe Creative Suite</li>
+                <li>Firebase / GitHub / Jira</li>
+                <li>Microsoft Office Suite / Google Workspace</li>
+              </ul>
+            </div>
           </div>
-          <div class="about-right">
-            <h2>Skills</h2>
-            <ul>
-              <li>Python / C++ / C / JavaScript / Swift / HTML / SQL</li>
-              <li>Figma / Adobe Creative Suite</li>
-              <li>Firebase / GitHub / Jira</li>
-              <li>Microsoft Office Suite / Google Workspace</li>
-            </ul>
-          </div>
-        </section>
-      </main>
+        </div>
+      </section>
     </div>
     <script>
       const links = document.querySelectorAll(".nav-center a");
