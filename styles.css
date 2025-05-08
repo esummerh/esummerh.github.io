@@ -585,8 +585,8 @@ img {
 
 .social-badges {
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    bottom: 10px;
+    right: 10px;
     display: flex;
     gap: -10px;
 }
