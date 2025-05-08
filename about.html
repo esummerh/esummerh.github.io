@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Add in the style css file -->
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -11,13 +10,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
     />
-    <!-- Working Title -->
     <title>About | Ella Summerhill Portfolio</title>
   </head>
   <body>
     <div class="page-wrapper">
-      <!-- This section contains links at the top of the page -->
-      <!-- Nav Bar -->
       <header class="navbar">
         <div class="nav-left">
           <span class="logo">ES</span>
@@ -42,25 +38,31 @@
           </div>
         </div>
       </header>
-      <section class="about-content">
-        <div class="about-photo-wrapper">
+
+      <section class="about-panel">
+        <div class="about-left">
           <img
             src="assets/grad-photo.jpeg"
             alt="Ella Summerhill portrait"
-            class="about-photo-large"
+            class="profile-image"
           />
         </div>
-        <div class="about-text">
-          <h1>About Me</h1>
-          <p>
-            I'm Ella, a recent graduate with a background in computer science
-            and design. I'm drawn to work that blends logic and
-            creativity-building tools and experiences that are both technically
-            sound and visually expressive.
-          </p>
-          <div class="about-columns">
-            <div class="about-section">
-              <h2>My Journey</h2>
+        <div class="about-right">
+          <div class="about-intro">
+            <h1 class="section-title">ABOUT</h1>
+            <div class="white-line"></div>
+            <p class="intro-text">
+              I'm Ella, a recent graduate with a background in computer science
+              and design. I'm drawn to work that blends logic and
+              creativity—building tools and experiences that are both
+              technically sound and visually expressive.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-box">
+              <h2 class="box-title">My Journey</h2>
+              <div class="white-line"></div>
               <p>
                 From sketching illustrations to debugging JavaScript, I've
                 always gravitated toward the overlap between art and
@@ -69,8 +71,10 @@
                 for impact, accessibility, and joy.
               </p>
             </div>
-            <div class="about-section">
-              <h2>Skills</h2>
+
+            <div class="about-box">
+              <h2 class="box-title">Skills</h2>
+              <div class="white-line"></div>
               <ul>
                 <li>Python / C++ / C / JavaScript / Swift / HTML / SQL</li>
                 <li>Figma / Adobe Creative Suite</li>
@@ -78,10 +82,29 @@
                 <li>Microsoft Office Suite / Google Workspace</li>
               </ul>
             </div>
+
+            <div class="about-box">
+              <h2 class="box-title">What I Do</h2>
+              <div class="white-line"></div>
+              <p>
+                Front-end development, UI/UX design, prototyping, and
+                storytelling through visuals and interaction.
+              </p>
+            </div>
+
+            <div class="about-box">
+              <h2 class="box-title">Interests</h2>
+              <div class="white-line"></div>
+              <p>
+                Accessibility, creative tech, visual storytelling, digital
+                safety, and helping others through technology.
+              </p>
+            </div>
           </div>
         </div>
       </section>
     </div>
+
     <script>
       const links = document.querySelectorAll(".nav-center a");
       const currentPage =
