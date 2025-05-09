@@ -203,6 +203,7 @@
           desc: "A graphite study of myself through live observation.",
         },
       };
+      const modalContent = document.querySelector(".modal-content");
       document.querySelectorAll(".artwork-item").forEach((item) => {
         item.addEventListener("click", () => {
           const title = item.querySelector(".artwork-title").innerText;
@@ -212,6 +213,17 @@
             modalTitle.textContent = detail.title;
             modalDesc.textContent = detail.desc;
             modal.style.display = "block";
+            modalImg.onload = () => {
+              modalContent.classList.remove(
+                "portrait-layout",
+                "landscape-layout"
+              );
+              if (modalImg.naturalHeight > modalImg.naturalWidth) {
+                modalContent.classList.add("portrait-layout");
+              } else {
+                modalContent.classList.add("landscape-layout");
+              }
+            };
           }
         });
       });
