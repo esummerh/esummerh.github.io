@@ -131,5 +131,53 @@
         }
       });
     </script>
+    <div id="imageModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <img id="modalImage" src="" alt="Full artwork" />
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+    <script>
+      const modal = document.getElementById("imageModal");
+      const modalImg = document.getElementById("modalImage");
+      const modalTitle = document.getElementById("modalTitle");
+      const modalDesc = document.getElementById("modalDescription");
+      const closeBtn = document.querySelector(".close-button");
+      const artworkDetails = {
+        Progression: {
+          src: "assets/progression.jpg",
+          title: "Progression",
+          desc: "An abstract acrylic pour exploring movement and color layering.",
+        },
+        Smilodon: {
+          src: "assets/skull.jpg",
+          title: "Smilodon",
+          desc: "A graphite study of the prehistoric saber-toothed cat fossil.",
+        },
+        // Add more entries here
+      };
+      document.querySelectorAll(".artwork-item").forEach((item) => {
+        item.addEventListener("click", () => {
+          const title = item.querySelector(".artwork-title").innerText;
+          const detail = artworkDetails[title];
+          if (detail) {
+            modalImg.src = detail.src;
+            modalTitle.textContent = detail.title;
+            modalDesc.textContent = detail.desc;
+            modal.style.display = "block";
+          }
+        });
+      });
+      closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+      });
+      window.addEventListener("click", (e) => {
+        if (e.target === modal) {
+          modal.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>
