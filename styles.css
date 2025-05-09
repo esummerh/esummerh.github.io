@@ -639,6 +639,16 @@ img {
     justify-content: center;
 }
 
+.artwork-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.artwork-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
 .artwork-item img {
     width: 100%;
     height: 300px;
