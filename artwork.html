@@ -1,1 +1,76 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Artwork | Ella Summerhill Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- Reuse nav bar -->
+      <header class="navbar">
+        <div class="nav-left">
+          <span class="logo">ES</span>
+        </div>
+        <nav class="nav-center">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="sunrise.html">Sunrise</a>
+          <a href="artwork.html" class="active">Artwork</a>
+          <a href="assets/RESUME.pdf" target="_blank">Resume</a>
+        </nav>
+        <div class="nav-right">
+          <div class="nav-social">
+            <a
+              href="https://www.linkedin.com/in/esummerh-ae2493gj9"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/esummerh" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Artwork Section -->
+      <section class="artwork-gallery">
+        <h1 class="section-heading">Artwork Collection</h1>
+        <div class="artwork-grid">
+          <div class="artwork-item">
+            <img src="assets/progression.jpg" alt="Progression artwork" />
+            <p class="artwork-title">Progression</p>
+            <p class="artwork-medium">Acrylic Pour, 2025</p>
+          </div>
+          <div class="artwork-item">
+            <img src="assets/skull.jpg" alt="Smilodon drawing" />
+            <p class="artwork-title">Smilodon</p>
+            <p class="artwork-medium">Graphite on Paper, 2023</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script>
+      const links = document.querySelectorAll(".nav-center a");
+      const currentPage =
+        window.location.pathname.split("/").pop() || "artwork.html";
+      links.forEach((link) => {
+        if (link.getAttribute("href") === currentPage) {
+          link.classList.add("active");
+        }
+      });
+    </script>
+  </body>
+</html>

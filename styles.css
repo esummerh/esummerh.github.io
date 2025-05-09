@@ -627,3 +627,33 @@ img {
 .badge.github {
     background-color: #6e5494;
 }
+
+.artwork-gallery {
+    padding: 4em 10vw;
+}
+
+.artwork-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3em;
+    justify-content: center;
+}
+
+.artwork-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.artwork-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0.5em;
+    color: #ffffff;
+}
+
+.artwork-medium {
+    font-size: 1rem;
+    color: #cccccc;
+}
