@@ -455,10 +455,10 @@ img {
 /* Activities and recognition section */
 .about-body {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     gap: 4em;
-    padding: 2em 10vw;
+    padding: 2em 10vw 2em 10vw;
     flex-wrap: wrap;
     margin-top: 0;
 }
