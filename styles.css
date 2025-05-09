@@ -455,7 +455,7 @@ img {
 /* Activities and recognition section */
 .about-body {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 4em;
     padding: 2em 10vw;
