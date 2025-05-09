@@ -533,7 +533,7 @@ img {
 .exhibition-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4em;
+    gap: 6em;
     align-items: start;
 }
 
