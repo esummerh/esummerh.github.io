@@ -396,7 +396,7 @@ img {
 .about-text {
     flex: 2;
     min-width: 400px;
-    max-width: 700px;
+    max-width: 750px;
 }
 
 .about-text h1 {
@@ -455,10 +455,10 @@ img {
 /* Activities and recognition section */
 .about-body {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 4em;
-    padding: 2em 10vw 2em 10vw;
+    padding: 2em 10vw;
     flex-wrap: wrap;
     margin-top: 0;
 }
