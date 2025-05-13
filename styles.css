@@ -781,22 +781,13 @@ img {
     border-radius: 10px;
 }
 
-.feature-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3em;
-    justify-content: center;
-    margin-top: 2em;
-}
-
 .feature-item {
-    max-width: 1000px;
-    text-align: center;
     display: flex;
     align-items: flex-start;
     gap: 2em;
     margin: 0 auto 3em auto;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .feature-item img {
