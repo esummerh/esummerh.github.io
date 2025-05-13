@@ -847,3 +847,10 @@ img {
 .feature-text li {
     margin-bottom: 0.8em;
 }
+
+.sunrise-disclaimer {
+    margin-top: 1em;
+    font-size: 0.9rem;
+    color: #bbbbbb;
+    max-width: 300px;
+}
