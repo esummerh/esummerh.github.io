@@ -60,6 +60,9 @@ img {
 /* Align left logo */
 .nav-left {
     justify-self: start;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
 }
 
 /* Logo text styling */
