@@ -790,8 +790,13 @@ img {
 }
 
 .feature-item {
-    max-width: 300px;
+    max-width: 1000px;
     text-align: center;
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    margin: 0 auto 3em auto;
+    flex-wrap: wrap;
 }
 
 .feature-item img {
@@ -805,4 +810,34 @@ img {
     font-size: 1.2rem;
     color: #a1dfff;
     margin-bottom: 0.3em;
+}
+
+.feature-images {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 200px;
+    flex-shrink: 0;
+}
+
+.feature-images img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0,4);
+}
+
+.feature-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.feature-text h3 {
+    font-size: 1.3rem;
+    color: #a1dfff;
+    margin-bottom: 0.3em;
+}
+
+.feature-text p {
+    font-size: 1.1rem;
+    color: #dddddd;
 }
