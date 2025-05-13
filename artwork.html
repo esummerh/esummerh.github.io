@@ -172,66 +172,26 @@
       });
     </script>
     <div id="imageModal" class="modal">
-      <div class="modal-content">
-        <span class="close-button">&times;</span>
-        <div class="image-wrapper">
-          <img id="modalImage" src="" alt="Full artwork" />
-        </div>
-        <h2 id="modalTitle"></h2>
-        <p id="modalDescription"></p>
-      </div>
+      <span class="close-button">&times;</span>
+      <img id="modalImage" src="" alt="Full artwork" class="fullscreen-image" />
     </div>
     <script>
       const modal = document.getElementById("imageModal");
       const modalImg = document.getElementById("modalImage");
-      const modalTitle = document.getElementById("modalTitle");
-      const modalDesc = document.getElementById("modalDescription");
       const closeBtn = document.querySelector(".close-button");
-      const artworkDetails = {
-        Progression: {
-          src: "assets/progression.jpg",
-          title: "Progression",
-          desc: "An abstract acrylic pour exploring movement and color layering.",
-        },
-        Smilodon: {
-          src: "assets/skull.jpg",
-          title: "Smilodon",
-          desc: "A graphite study of the prehistoric saber-toothed cat fossil.",
-        },
-        // Add more entries here
-        Reflection: {
-          src: "assets/portrait.jpg",
-          title: "Reflection",
-          desc: "A graphite study of myself through live observation.",
-        },
-      };
       const modalContent = document.querySelector(".modal-content");
-      document.querySelectorAll(".artwork-item").forEach((item) => {
+
+      document.querySelectorAll(".artwork-item img").forEach((img) => {
         item.addEventListener("click", () => {
-          const title = item.querySelector(".artwork-title").innerText;
-          const detail = artworkDetails[title];
-          if (detail) {
-            modalImg.src = detail.src;
-            modalTitle.textContent = detail.title;
-            modalDesc.textContent = detail.desc;
-            modal.style.display = "block";
-            modalImg.onload = () => {
-              modalContent.classList.remove(
-                "portrait-layout",
-                "landscape-layout"
-              );
-              if (modalImg.naturalHeight > modalImg.naturalWidth) {
-                modalContent.classList.add("portrait-layout");
-              } else {
-                modalContent.classList.add("landscape-layout");
-              }
-            };
-          }
+          modalImg.src = img.src;
+          modal.style.display = "flex";
         });
       });
+
       closeBtn.addEventListener("click", () => {
         modal.style.display = "none";
       });
+
       window.addEventListener("click", (e) => {
         if (e.target === modal) {
           modal.style.display = "none";

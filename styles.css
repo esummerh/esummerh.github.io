@@ -672,9 +672,21 @@ img {
     display: none;
     position: fixed;
     z-index: 1000;
-    inset: 0;
-    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(4px);
+    justify-content: center;
+    align-items: center;
+}
+
+.fullscreen-image {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 10px;
 }
 
 .modal-content {
@@ -708,49 +720,9 @@ img {
 
 .close-button {
     position: absolute;
-    top: 1em;
-    right: 1em;
-    color: #222;
-    background: none;
+    top: 1.5em;
+    right: 2em;
     font-size: 2em;
+    color: #fff;
     cursor: pointer;
-    border: none;
-    z-index: 10;
-}
-
-.portrait-layout {
-    flex-direction: row;
-    gap: 2em;
-    align-items: flex-start;
-}
-
-.landscape-layout {
-    flex-direction: column;
-    align-items: center;
-}
-
-#modalDescription {
-    color: #222;
-    font-size: 1rem;
-    margin-top: 0.5em;
-    max-width: 800px;
-    text-align: center;
-}
-
-#modalTitle {
-    margin-top: 1em;
-    font-size: 1.4rem;
-    font-weight: 600;
-}
-
-.image-wrapper {
-    max-height: 60vh;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    margin-bottom: 1em;
 }
