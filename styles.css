@@ -797,12 +797,12 @@ img {
     display: flex;
     flex-direction: row;
     gap: 1em;
-    max-width: 330px;
     flex-shrink: 0;
 }
 
 .feature-images img {
-    width: 150px;
+    width: 180px;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
