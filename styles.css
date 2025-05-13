@@ -785,6 +785,7 @@ img {
     gap: 2em;
     margin: 0 auto 3em auto;
     flex-wrap: wrap;
+    max-width: 1000px;
 }
 
 .feature-item h3 {
@@ -797,18 +798,20 @@ img {
     display: flex;
     flex-direction: row;
     gap: 1em;
-    max-width: 200px;
+    max-width: 330px;
     flex-shrink: 0;
 }
 
 .feature-images img {
-    width: 100%;
+    width: 150px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .feature-text {
-    max-width: 600px;
+    flex: 1;
+    min-width: 250px;
     text-align: left;
 }
 
