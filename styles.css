@@ -760,12 +760,12 @@ img {
 
 .video-container {
     position: relative;
-    padding-bottom: 60%;
+    padding-bottom: 40%;
     height: 0;
     overflow: hidden;
     margin: 2em auto;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-    max-width: 640px;
+    max-width: 900px;
     width: 100%;
 }
 
