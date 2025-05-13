@@ -402,8 +402,8 @@ img {
 }
 
 .about-photo-square {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10%;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
@@ -587,12 +587,6 @@ img {
 
 .sunrise-text h2 {
     font-size: 1.5rem;
-    color: #75d5d1;
-    margin-bottom: 0.5em;
-}
-
-.sunrise-text h3 {
-    font-size: 1rem;
     color: #75d5d1;
     margin-bottom: 0.5em;
 }
