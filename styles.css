@@ -685,7 +685,6 @@ img {
     max-width: 90vw;
     max-height: 90vh;
     object-fit: contain;
-    border-radius: 10px;
 }
 
 .modal-content {
