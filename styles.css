@@ -704,7 +704,7 @@ img {
 }
 
 .close-button {
-    color: #ffffff;
+    color: #222;
     float: right;
     font-size: 2em;
     cursor: pointer;
