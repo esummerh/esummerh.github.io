@@ -591,6 +591,12 @@ img {
     margin-bottom: 0.5em;
 }
 
+.sunrise-text h3 {
+    font-size: 1rem;
+    color: #75d5d1;
+    margin-bottom: 0.5em;
+}
+
 .sunrise-text p {
     font-size: 1rem;
     line-height: 1.6;
