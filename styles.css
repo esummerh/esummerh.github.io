@@ -797,7 +797,7 @@ img {
 
 .feature-images {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1em;
     max-width: 200px;
     flex-shrink: 0;
