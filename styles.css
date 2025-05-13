@@ -73,6 +73,11 @@ img {
     letter-spacing: 1px;
 }
 
+/* Link style */
+.nav-left a {
+    text-decoration: none;
+}
+
 /* Centered nav links */
 .nav-center {
     justify-self: center;
