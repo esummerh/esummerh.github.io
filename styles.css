@@ -62,7 +62,7 @@ img {
     justify-self: start;
     display: flex;
     align-items: center;
-    gap: 1.5em;
+    gap: 1em;
 }
 
 /* Logo text styling */
