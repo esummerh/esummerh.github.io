@@ -787,14 +787,6 @@ img {
     gap: 2em;
     margin: 0 auto 3em auto;
     flex-wrap: wrap;
-    justify-content: center;
-}
-
-.feature-item img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1em;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .feature-item h3 {
@@ -814,7 +806,7 @@ img {
 .feature-images img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0,4);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .feature-text {
