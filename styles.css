@@ -449,7 +449,7 @@ img {
 .about-section p {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #ffffff;
+    color: #dddddd;
 }
 
 /* Resume button */
@@ -497,7 +497,7 @@ img {
 .about-right p {
     font-size: 1rem;
     line-height: 1.6;
-    color: #ffffff;
+    color: #dddddd;
 }
 
 .cta-button.dark-download {
@@ -594,7 +594,7 @@ img {
 .sunrise-text p {
     font-size: 1rem;
     line-height: 1.6;
-    color: #ffffff;
+    color: #dddddd;
 }
 
 .profile-container {
