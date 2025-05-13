@@ -411,10 +411,13 @@ img {
 
 /* Right side of panel */
 .about-text {
-    color: #dddddd;
     flex: 2;
     min-width: 400px;
     max-width: 750px;
+}
+
+.about-text p {
+    color: #dddddd;
 }
 
 .about-text h1 {
